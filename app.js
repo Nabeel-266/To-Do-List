@@ -68,7 +68,7 @@ function messageAlert(innerText, fontColor, alertBackground){
     setTimeout( function () {
         alertMessage.innerHTML = '';
         alertMessage.classList.add('hide');
-    }, 1000);
+    }, 1200);
 }
 
 // -------> For Delete Button Function

@@ -66,6 +66,7 @@ body {
     font-size: 2.4rem;
     padding: 5px 20px;
     background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Poppins', sans-serif;
 }
 .input:focus{
     background-color: rgba(0, 0, 0, 0.6);
@@ -146,10 +147,12 @@ body {
 }
 .addItem p{
     font-size: 2rem;
-    color: #222222;
+    color: #333333;
     /* background-color: #00b4b4; */
-    overflow-x: auto;
     text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    overflow-x: auto;
 }
 .editDeleteButtons{
     width: 10%;
@@ -288,8 +291,4 @@ button[type='button']:hover{
 
 .hide{
     display: none;
-    /* color: #8E0E00; */
-    /* background-color: rgba(190, 19, 0, 0.3); */
-    /* color: #016b01;
-    color: rgba(0, 218, 0, 0.3); */
 }
